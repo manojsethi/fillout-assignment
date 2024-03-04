@@ -1,0 +1,23 @@
+{
+  "name": "test-fillout",
+  "version": "1.0.0",
+  "description": "a simple REST API server which interacts with Fillout.com’s API  to fetch form responses, but with an option to filter based on certain answers",
+  "main": "index.js",
+  "author": "Manoj Sethi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3"
+  }
+}
